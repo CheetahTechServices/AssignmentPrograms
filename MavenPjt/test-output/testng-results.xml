@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27188" started-at="2018-04-26T06:57:05Z" finished-at="2018-04-26T06:57:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27188" started-at="2018-04-26T06:57:05Z" finished-at="2018-04-26T06:57:32Z">
+      <class name="scripts.VerifyProductVersion">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.VerifyProductVersion@3aeaafa6]" name="openApplication" is-config="true" duration-ms="12209" started-at="2018-04-26T12:27:05Z" finished-at="2018-04-26T12:27:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyVersion()[pri:0, instance:scripts.VerifyProductVersion@3aeaafa6]" name="verifyVersion" duration-ms="14590" started-at="2018-04-26T12:27:18Z" finished-at="2018-04-26T12:27:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVersion -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.VerifyProductVersion@3aeaafa6]" name="closeApplication" is-config="true" duration-ms="327" started-at="2018-04-26T12:27:32Z" finished-at="2018-04-26T12:27:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyVersion status=SUCCESS method=VerifyProductVersion.verifyVersion()[pri:0, instance:scripts.VerifyProductVersion@3aeaafa6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.VerifyProductVersion -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
